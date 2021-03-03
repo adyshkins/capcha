@@ -46,7 +46,7 @@ namespace capcha
 
         private void btnUpdate_Click(object sender, RoutedEventArgs e)
         {
-            tbCapcha.Text = GetCapcha(); // Вывод капчи
+            tbCapcha.Text = GetCapcha();
         }
     }
 }
